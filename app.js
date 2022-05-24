@@ -34,7 +34,7 @@ computerChoiceDisplay.innerHTML = computerChoice
 
 function getResult() {
     if(computerChoice === userChoice){
-        result = 'its a Draw!'
+        result = 'ITS A DRAW!'
     }
 
     if(computerChoice === 'rock' && userChoice ==="paper"){
